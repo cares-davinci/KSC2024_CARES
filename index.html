@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>프로그램 일정</title>
+    <title>KSC2024 차세대데이터센터연구센터 기술교류회</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -32,10 +32,6 @@
             padding: 30px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* 그림자 추가 */
             margin: 20px;
-        }
-        .table-wrapper {
-        overflow-x: auto; /* 가로 스크롤 추가 */
-        margin-bottom: 20px;
         }
         table {
             width: 100%;
@@ -69,6 +65,12 @@
             font-size: 0.9em;
             color: blue;
             text-decoration: underline;
+        }        
+        .divider {
+            width: 100%;
+            height: 3px;
+            background-color: #000;
+            margin: 40px 0;
         }
     </style>
 </head>
@@ -77,71 +79,87 @@
         <img src="https://raw.githubusercontent.com/ihchoi9710/WorkshopPage/main/door.png" alt="프로그램 일정 헤더 이미지">
     </header>
     <div class="content">
+        <h1>일시 및 장소</h1>
+        <ul>
+        <li><h3>2024년 12월 19일 목요일 09:00~11:45</h3></li>
+        <li><h3>여수엑스포컨벤션센터 세미나실 10, GF</h3></li>
+        </ul>
+        <h1>주관</h1>
+        <ul>
+            <li><h3>서울대학교 차세대데이터센터연구센터</h3></li>
+        </ul>
+        <h1>조직</h1>
+        <ul>
+            <li><h3>공동조직위원장: 김지홍 교수(서울대), 김남승 교수(Univ. of Illinois, Urbana-Champaign)</h3></li>
+            <li><h3>프로그램위원: 이재욱 교수(서울대), 안정호 교수(서울대)</h3></li>
+        </ul>
+        <h1>초대의 말씀</h1>
+        <h3>초거대 AI모델에 기반한 혁신적인 기술 발전이 전 산업적으로 빠르게 진행되고 있습니다. 이러한 기술 발전의 핵심 인프라를 제공하는 차세대데이터센터에서는 초거대 AI모델에 최적화된 새로운 학습과 추론기술이 요구됩니다. 서울대학교 차세대데이터센터연구센터의 관련 최신 연구 결과들을 연구자들과 공유하고 향후 연구 방향에 대한 소중한 의견을 듣는 자리를 마련합니다. 차세대 AI향 데이터센터를 위한 시스템 연구자 여러분들의 많은 참여 부탁 드립니다.</h3>
+        <div class="divider"></div>
         <h1>프로그램 일정</h1>
-        <div class="table-wrapper">
-            <table>
-                <thead>
-                    <tr>
-                        <th>시간</th>
-                        <th>프로그램</th>
-                        <th>연사</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>09:00 ~ 09:05</td>
-                        <td>개회사</td>
-                        <td>김지홍 교수(서울대)</td>
-                    </tr>
-                    <tr>
-                        <td>09:05 ~ 09:20</td>
-                        <td>차세대데이터센터연구센터 소개</td>
-                        <td>김남승 교수(UIUC)</td>
-                    </tr>
-                    <tr>
-                        <td>09:20 ~ 09:30</td>
-                        <td>휴식</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>09:30 ~ 09:50</td>
-                        <td>DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands</td>
-                        <td>남화용 연구원(서울대)</td>
-                    </tr>
-                    <tr>
-                        <td>09:50 ~ 10:10</td>
-                        <td>AttAcc! Unleashing the Power of PIM for Batched Transformer-based Generative Model Inference</td>
-                        <td>경관희 연구원(서울대)</td>
-                    </tr>
-                    <tr>
-                        <td>10:10 ~ 10:30</td>
-                        <td>How to Kill the Second Bird with One ECC: The Pursuit of Row Hammer Resilient DRAM</td>
-                        <td>김재민 연구원(서울대)</td>
-                    </tr>
-                    <tr>
-                        <td>10:30 ~ 10:45</td>
-                        <td>휴식</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>10:45 ~ 11:05</td>
-                        <td>Any-Precision LLM: Low-Cost Deployment of Multiple, Different-Sized LLMs</td>
-                        <td>박연홍 연구원(서울대)</td>
-                    </tr>
-                    <tr>
-                        <td>11:05 ~ 11:25</td>
-                        <td>FACIL: Flexible DRAM Address Mapping for SoC-PIM Cooperative On-device LLM Inference</td>
-                        <td>서성훈 연구원(서울대)</td>
-                    </tr>
-                    <tr>
-                        <td>11:25 ~ 11:45</td>
-                        <td>RiF: Improving Read Performance of Modern SSDs Using an On-Die Early-Retry Engine</td>
-                        <td>천명준 연구원(서울대)</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <h1>발표 세션 소개</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>시간</th>
+                    <th>프로그램</th>
+                    <th>연사</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>09:00 ~ 09:05</td>
+                    <td>개회사</td>
+                    <td>김지홍 교수(서울대)</td>
+                </tr>
+                <tr>
+                    <td>09:05 ~ 09:20</td>
+                    <td>차세대데이터센터연구센터 소개</td>
+                    <td>김남승 교수(UIUC)</td>
+                </tr>
+                <tr>
+                    <td>09:20 ~ 09:30</td>
+                    <td>휴식</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>09:30 ~ 09:50</td>
+                    <td>DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands</td>
+                    <td>남화용 연구원(서울대)</td>
+                </tr>
+                <tr>
+                    <td>09:50 ~ 10:10</td>
+                    <td>AttAcc! Unleashing the Power of PIM for Batched Transformer-based Generative Model Inference</td>
+                    <td>경관희 연구원(서울대)</td>
+                </tr>
+                <tr>
+                    <td>10:10 ~ 10:30</td>
+                    <td>How to Kill the Second Bird with One ECC: The Pursuit of Row Hammer Resilient DRAM</td>
+                    <td>김재민 연구원(서울대)</td>
+                </tr>
+                <tr>
+                    <td>10:30 ~ 10:45</td>
+                    <td>휴식</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10:45 ~ 11:05</td>
+                    <td>Any-Precision LLM: Low-Cost Deployment of Multiple, Different-Sized LLMs</td>
+                    <td>박연홍 연구원(서울대)</td>
+                </tr>
+                <tr>
+                    <td>11:05 ~ 11:25</td>
+                    <td>FACIL: Flexible DRAM Address Mapping for SoC-PIM Cooperative On-device LLM Inference</td>
+                    <td>서성훈 연구원(서울대)</td>
+                </tr>
+                <tr>
+                    <td>11:25 ~ 11:45</td>
+                    <td>RiF: Improving Read Performance of Modern SSDs Using an On-Die Early-Retry Engine</td>
+                    <td>천명준 연구원(서울대)</td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: right; font-size: 0.9em; font-style: italic;">※ 상기 프로그램은 사정에 따라 변경될 수 있습니다.</p>
+        <h1 style="margin-top: -10px;">발표 세션 소개</h1>
         <ul>
             <li>
                 DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands  [<a href="door.png" download>slides</a>]
@@ -168,6 +186,10 @@
                 <span>Myoungjun Chun, Jaeyong Lee, Myungsuk Kim, Jisung Park, and Jihong Kim</span>
             </li>
         </ul>
+        <div class="divider"></div>
+        <h1>참가비</h1>
+        <h3>해당 행사는 KSC2024 참가등록자만 신청가능하며, 무료 워크샵입니다.</h3>
     </div>
+    
 </body>
 </html>
